@@ -4,42 +4,42 @@ sidebar_position: 2
 
 # Translate your site
 
-Let's translate `docs/intro.md` to French.
+Let's translate `docs/intro.md` to Spanish.
 
 ## Configure i18n
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+Modify `docusaurus.config.js` to add support for the `es` locale:
 
 ```js title="docusaurus.config.js"
 export default {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    locales: ['en', 'es'],
   },
 };
 ```
 
 ## Translate a doc
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+Copy the `docs/intro.md` file to the `i18n/es` folder:
 
 ```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+mkdir -p i18n/es/docusaurus-plugin-content-docs/current/
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
+cp docs/intro.md i18n/es/docusaurus-plugin-content-docs/current/intro.md
 ```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+Translate `i18n/es/docusaurus-plugin-content-docs/current/intro.md` in Spanish.
 
 ## Start your localized site
 
-Start your site on the French locale:
+Start your site on the Spanish locale:
 
 ```bash
-npm run start -- --locale fr
+npm run start -- --locale es
 ```
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
+Your localized site is accessible at [http://localhost:3000/es/](http://localhost:3000/es/) and the `Getting Started` page is translated.
 
 :::caution
 
@@ -78,7 +78,7 @@ The locale dropdown now appears in your navbar:
 Build your site for a specific locale:
 
 ```bash
-npm run build -- --locale fr
+npm run build -- --locale es
 ```
 
 Or build your site to include all the locales at once:

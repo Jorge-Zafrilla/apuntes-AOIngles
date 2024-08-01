@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Diseño de Interfaces Web',
-  tagline: '2º DAW',
+  title: 'Aplicaciones Ofimáticas - English',
+  tagline: '1º SMX',
   favicon: 'img/logobatoi.png',
 
   // Set the production url of your site here
@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es', 'en'],
+    defaultLocale: 'en',
+    locales: ['en', 'es'],
   },
 
   presets: [
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/logobatoi.png',
       navbar: {
-        title: 'Diseño de Interfaces Web',
+        title: 'Aplicaciones Ofimáticas',
         logo: {
           alt: 'Logo Batoi',
           src: 'img/logobatoi.png',
@@ -77,12 +77,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Apuntes',
           },
 
           {to: '/blog', label: 'Anuncios', position: 'left'},
           {to: '/apuntes', label: 'Apuntes', position: 'left'},
-          {to: '/ejercicios', label: 'Ejercicios', position: 'left'},
           {
             type: 'localeDropdown', 
             position:'right',
@@ -124,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Diseño de Interfaces Web - Jorge Zafrilla Muñoz.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aplicaciones Ofimáticas - Jorge Zafrilla Muñoz.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog</id>
-    <title>Aplicaciones Ofimáticas - English Blog</title>
-    <updated>2024-07-18T00:00:00.000Z</updated>
+    <title>Aplicaciones Ofimáticas Blog</title>
+    <updated>2024-09-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog"/>
-    <subtitle>Aplicaciones Ofimáticas - English Blog</subtitle>
+    <subtitle>Aplicaciones Ofimáticas Blog</subtitle>
     <icon>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/img/logobatoi.png</icon>
     <entry>
         <title type="html"><![CDATA[Información sobre el curso]]></title>
         <id>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog/primer-anuncio</id>
         <link href="https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog/primer-anuncio"/>
-        <updated>2024-07-18T00:00:00.000Z</updated>
+        <updated>2024-09-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
         <author>
@@ -48,8 +48,8 @@
             <uri>https://github.com/yangshun</uri>
         </author>
         <category label="facebook" term="facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
@@ -63,7 +63,7 @@
             <name>Sébastien Lorber</name>
             <uri>https://sebastienlorber.com</uri>
         </author>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Long Blog Post]]></title>
@@ -93,8 +93,8 @@
             <name>Jorge Zafrilla Muñoz</name>
             <uri>https://github.com/Jorge-Zafrilla</uri>
         </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
@@ -108,6 +108,6 @@
             <uri>https://github.com/wgao19</uri>
         </author>
         <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="docusaurus" term="docusaurus"/>
     </entry>
 </feed>

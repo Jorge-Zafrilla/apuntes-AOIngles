@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog</id>
-    <title>Aplicaciones Ofimáticas Blog</title>
+    <title>Apuntes Python Blog</title>
     <updated>2024-09-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog"/>
-    <subtitle>Aplicaciones Ofimáticas Blog</subtitle>
-    <icon>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/img/logobatoi.png</icon>
+    <subtitle>Apuntes Python Blog</subtitle>
+    <icon>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/img/logo-python.png</icon>
     <entry>
         <title type="html"><![CDATA[Información sobre el curso]]></title>
         <id>https://Jorge-Zafrilla.github.io/apuntes-AOIngles/blog/primer-anuncio</id>
